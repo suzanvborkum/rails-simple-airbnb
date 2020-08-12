@@ -1,0 +1,30 @@
+<div class="header-image" style="background-image: url(<%= asset_path @flat.picture_url %>)"></div>
+<div class="container margin-top-negative">
+  <div class="row">
+    <div class="col-8">
+      <div class="flat-show-card">
+        <h1><%= @flat.name %></h1>
+        <p><%= @flat.address %></p>
+      </div>
+      <div class="flat-show-card">
+        <h3>A bit more about this flat...</h3>
+        <p><%= @flat.description %></p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="flat-show-card">
+        <h5>Book this place!</h5>
+        <form action="" class="form-group">
+          <input class="form-control" type="text" placeholder="From" style="width: 100%">
+          <input class="form-control" type="text" placeholder="Until" style="width: 100%">
+          <input type="submit" class="btn btn-success mt-2" value="Book" style="width: 100%">
+        </form>
+      </div>
+      <div class="flat-show-card">
+        <h3>Details</h3>
+        <p><i class="fas fa-user-friends"></i> <%= @flat.number_of_guests %></p>
+        <p><i class="fas fa-euro-sign"></i> <%= @flat.price_per_night%></p>
+      </div>
+    </div>
+  </div>
+</div>

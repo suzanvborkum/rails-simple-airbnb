@@ -1,1 +1,42 @@
 @import "bootstrap/scss/bootstrap";
+@import"/flats";
+
+body {
+  padding-bottom: 40px;
+}
+
+nav {
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
+  background-color: #F8F9FA;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.new-flat {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.new-flat:hover {
+  text-decoration: none;
+  color: white;
+}

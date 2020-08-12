@@ -1,0 +1,59 @@
+.margin-top-negative {
+  margin-top: -75px;
+}
+
+.header-image {
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display:flex;
+}
+
+.flat-content {
+  background-color: #F8F9FA;
+  padding: 20px 20px 10px 20px;
+  flex-grow: 1;
+}
+
+.persons-price {
+  display: flex;
+  justify-content: start;
+}
+
+.persons-price p {
+  padding-right: 15px;
+}
+
+.flat-actions {
+  border-top: solid 1px lightgrey;
+  padding: 20px 20px 20px 20px;
+}
+
+.flat-actions a {
+  padding-right: 15px;
+ }
+
+
+.flat-show-card {
+  background: #F8F9FA;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  border-radius: 3px;
+}
+
+.flat-description {
+  font-size: 14px;
+}
+
+.card-image {
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
